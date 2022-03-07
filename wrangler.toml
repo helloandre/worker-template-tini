@@ -1,0 +1,9 @@
+name = "worker-template-tini"
+type = "webpack"
+workers_dev = true
+account_id = ""
+
+compatibility_date = "2022-03-01"
+
+[site]
+bucket = "./vue-dist"

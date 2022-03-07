@@ -1,0 +1,10 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["./env.d.ts", "./src/*.ts", "./src/**/*.ts", "./test/**/*.ts", "./test/*.ts"],
+  "exclude": ["node_modules/", "dist/", "vue-dist/", "src/ui/"],
+  "compilerOptions": {
+    "lib": ["WebWorker", "ES5", "ScriptHost", "ES2015"],
+    "moduleResolution": "node"
+  },
+  "references": [{ "path": "./tsconfig.vite-config.json" }]
+}
