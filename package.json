@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.1.3",
-    "@helloandre/tini": "file:../tini",
-    "@helloandre/tini-extras": "file:../tini-extras",
+    "@helloandre/tini": "^2.0.0",
+    "@helloandre/tini-extras": "^0.1.0",
     "axios": "^0.26.0",
     "vue": "^3.2.31",
     "vue-router": "^4.0.12"
